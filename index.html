@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>slide-show</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="text">Slide Show Game</h1>
+
+    <div class="slide-show">
+        <img id="slideImage" src="" alt="Slide Image" width="800" height="600">
+    </div>
+
+    <div style="text-align: center; margin: 10px;">
+        <button class="btn" onclick="prevImage(slideImage)"> < </button>
+        <button class="btn play" onclick="playImages(slideImage)">Play</button>
+        <button class="btn stop" onclick="stopImages()">Stop</button>
+        <button class="btn" onclick="nextImage(slideImage)"> > </button>
+    </div>
+
+    <script src="slide_show.js"></script>
+</body>
+
+</html>

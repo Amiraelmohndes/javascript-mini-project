@@ -1,0 +1,30 @@
+.text {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: cadetblue;
+    border-radius: 5px;
+    width: 800px;
+    margin: 20px auto;
+    padding: 8px;
+}
+
+.slide-show {
+    text-align: center;
+    margin: 20px auto;
+    border: 5px solid cadetblue;
+    border-radius: 5px;
+    width: 800px;
+    height: 600px;
+}
+
+.btn {
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
